@@ -1,0 +1,50 @@
+.Partners {
+
+    &__title {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 700;
+        width: 728px;
+        margin: 60px 0 0 208px;
+    }
+
+    &__subtitle {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 30px;
+        width: 679px;
+        margin: 24px 0 0 208px;
+    }
+
+    &__div_partners {
+        margin: 0 0 0 208px;
+    }
+
+    &__div_partners_top {
+        display: flex;
+        margin: 62px 0 60px 0;
+    }
+
+    &__div_partners_bottom {
+        display: flex;
+        margin: 0 0 120px 0;
+    }
+
+    &__img {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 600;
+        margin: 0 150px 0 0;
+    }
+
+    &__img>img{
+        margin: 0 23px 0 0;
+    }
+}

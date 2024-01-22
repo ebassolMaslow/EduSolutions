@@ -1,0 +1,51 @@
+.FeedbackCard {
+
+    &__container {
+        border-radius: 40px;
+        background: #F9F9F9;
+        box-shadow: 0px 9px 14px 0px rgba(0, 0, 0, 0.25);
+        width: 209px;
+        padding: 24px 48px 52px 33px;
+
+    }
+
+    &__div_feedback_title {
+        display: flex;
+        margin: 0 0 33px 0;
+    }
+
+    &__div_feedback_title_text {
+        margin: 0 0 0 12px;
+    }
+
+    &__feedback_title_text {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0 0 3px 0;
+    }
+
+    &__feedback_subtitle_text {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    &__feedback_text_body {
+        width: 209px;
+    }
+
+    &__photo {
+        width: 60px;
+        height: 60px;
+    }
+
+    &__feedback_text_body {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}

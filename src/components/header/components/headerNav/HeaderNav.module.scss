@@ -1,0 +1,28 @@
+.header {
+
+    &__nav{
+        margin: 0 96px 0 259px;
+        // line-height: 1.7;
+        display: flex;
+        align-items: center;
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        width: 672px;
+    }
+
+    &__menu_item {
+        list-style-type: none;       
+    }
+
+    &__link {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}

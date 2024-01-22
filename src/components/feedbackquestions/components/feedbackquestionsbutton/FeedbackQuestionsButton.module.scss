@@ -1,0 +1,21 @@
+.FeedbackQuestionsButton {
+
+    &__button {
+        color: #3E50CB;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 600;
+        border-radius: 40px;
+        background: #FFF;
+        padding: 21px 98px;
+        border: 2px solid white;
+        transition: .3s ease-in-out;
+        cursor: pointer;
+    }
+
+    &__button:hover {
+        background: #3E50CB;
+        color: #fff;
+        transition: .3s ease-in-out;
+    }
+}

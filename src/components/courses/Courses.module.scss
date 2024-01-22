@@ -1,0 +1,43 @@
+.courses {
+
+    &__background {
+        background: #000;
+        width: 100%;
+        height: auto;
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title {
+        color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 52px;
+        font-weight: 500;
+        width: 690px;
+        padding: 51px 0 33px 0;
+    }
+
+    &__div_courses{
+        display: flex;
+        align-items: center;
+    }
+
+    &__slider{
+        width: 1322px;
+        height: 237px;
+        overflow: hidden;
+        margin: 0 0 33px 0;
+    }
+
+    &__slider_line{
+        display: flex;
+        width: 4287px;
+        height: 237px;
+        position: relative;
+        left: 0;
+        transition: all ease 0.7s;
+    }
+}

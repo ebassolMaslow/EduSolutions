@@ -1,0 +1,14 @@
+.NextButton{
+
+    &__nextBtn>path{
+        fill: rgb(255, 255, 255);
+        transition: .3s ease;
+    }
+
+    &__nextBtn>path:hover{
+        fill: #3E50CB;
+        cursor: pointer;
+        transition: .3s ease;
+    }
+
+}

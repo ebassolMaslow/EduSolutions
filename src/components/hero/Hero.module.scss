@@ -1,0 +1,31 @@
+.hero {
+
+    &__title {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 68px;
+        font-weight: 700;
+        width: 884px;
+        margin: 78px 0 0 138px;
+    }
+
+    &__title>span {
+        color: #6C6;
+    }
+
+    &__subtitle {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 28px;
+        font-weight: 400;
+        width: 465px;
+        margin: 17px 0 32px 138px;
+    }
+
+    &__div_cards{
+        display: flex;
+        width: 1332px;
+        justify-content: space-between;
+        margin: 71px 0 119px 138px;
+    }
+}

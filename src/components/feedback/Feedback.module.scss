@@ -1,0 +1,21 @@
+.Feedback {
+
+    &__container{
+        display: flex;
+        width: 981px;
+        margin: 0 0 0 294px;
+        justify-content: space-between;
+    }
+
+    &__main_container{
+        margin: 0 0 130px 0;
+    }
+
+    &__title {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 68px;
+        font-weight: 700;
+        margin: 0 0 60px 253px;
+    }
+}

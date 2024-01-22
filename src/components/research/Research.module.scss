@@ -1,0 +1,38 @@
+.Research {
+
+    &__container {
+        background-color: #F2F2F2;
+        width: 1022px;
+        height: auto;
+        border-radius: 40px;
+        padding: 66px 0 54px 91px;
+        display: flex;
+        margin: 0 0 120px 205px;
+    }
+
+    &__title {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 24px;
+    }
+
+    &__text {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 36px;
+        font-weight: 600;
+        margin-bottom: 33px;
+        width: 451px;
+    }
+
+    &__div_research {
+        margin: 0 156px 0 0;
+    }
+
+    &__img {
+        width: 250px;
+        height: 255.194px;
+    }
+}

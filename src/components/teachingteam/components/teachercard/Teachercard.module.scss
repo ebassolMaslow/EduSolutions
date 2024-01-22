@@ -1,0 +1,36 @@
+.Teachercard {
+
+    &__body {
+        display: flex;
+        margin: 0 0 40px 208px;
+    }
+
+    &__text_body {
+        margin: 24px 0 0 19px;
+    }
+
+    &__text_title {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    &__text {
+        margin: 7px 0 42px 0;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        width: 451px;
+    }
+
+    &__text_subtitle {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+    }
+}

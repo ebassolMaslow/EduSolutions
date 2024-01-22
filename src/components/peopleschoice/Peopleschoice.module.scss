@@ -1,0 +1,42 @@
+.Peopleschoice {
+
+    &__container {
+        display: flex;
+        margin: 136px 0 99px 205px;
+    }
+
+    &__title {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 36px;
+        font-weight: 600;
+        width: 420px;
+        margin: 69px 154px 0 0;
+    }
+
+    &__statistic_title {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 36px;
+        font-weight: 600;
+        margin-bottom: 18px;
+    }
+
+    &__statistic {
+        margin: 0 154px 0 0;
+    }
+
+    &__statistic_text {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 400;
+        width: 225px;
+    }
+
+    &__statistic_textwo {
+        margin-bottom: 65px;
+    }
+
+
+}

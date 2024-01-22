@@ -1,0 +1,21 @@
+.TakeCourseButton {
+    background: #66CC66;
+    border: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 17.5px 63.5px;
+    border-radius: 40px;
+    cursor: pointer;
+    border: 2px solid #66CC66;
+    transition: .3s ease;
+    margin: 0 0 0 138px;
+}
+
+.TakeCourseButton:hover{
+    background: #FFF;
+    color: #66CC66;
+    border: 2px solid #66CC66;
+    transition: .3s ease;
+}

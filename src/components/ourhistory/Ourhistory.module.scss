@@ -1,0 +1,29 @@
+.Ourhistory {
+
+    &__container {
+        margin: 0 0 77px 208px;
+    }
+
+    &__title {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 700;
+        margin: 0 0 77px 0;
+    }
+
+    &__body {
+        display: flex;
+        align-items: center;
+    }
+
+    &__text {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        width: 610px;
+        margin: 0 77px 0 16px;
+    }
+}
