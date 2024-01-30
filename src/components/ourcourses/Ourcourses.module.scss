@@ -42,3 +42,27 @@
         transition: all ease 0.7s;
     }
 }
+
+@media (width: 768px) {
+    .Ourcourses {
+    
+        &__slider{
+            width: 432px;
+            height: 237px;
+            overflow: hidden;
+            margin: 0 0 33px 0;
+        }
+    }
+}
+
+@media (width: 480px) {
+    .Ourcourses {
+    
+        &__slider{
+            width: 332px;
+            height: 237px;
+            overflow: hidden;
+            margin: 0 0 33px 0;
+        }
+    }
+}

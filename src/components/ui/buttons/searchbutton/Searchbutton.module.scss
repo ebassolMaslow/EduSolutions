@@ -1,0 +1,66 @@
+.Searchbutton{
+
+    &__search_input {
+        width: 360px;
+        padding: 14.3px 0;
+        background: #202020;
+        border: none;
+        border-radius: 0 20px 20px 0;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    &__body_search_courses {
+        display: flex;
+        align-items: center;
+    }
+
+    &__body_search_courses>button {
+        border: none;
+        background: #202020;
+        border-radius: 20px 0 0 20px;
+        padding: 12.1px 14px 12.5px 23px;
+    }
+
+    &__body_search_courses>button>img {
+        width: 25px;
+        height: 25px;
+    }
+
+    &__search_input::placeholder {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
+
+@media (width: 768px) {
+    .Catalogcourses {
+
+        &__background {
+            background: #000;
+            width: 700px;
+            height: 900px;
+            border-radius: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 14px 0 99px 0;
+        }
+    }
+}
+
+@media (width: 480px) {
+    .Ourcourses {
+    
+        &__slider{
+            width: 332px;
+            height: 237px;
+            overflow: hidden;
+            margin: 0 0 33px 0;
+        }
+    }
+}

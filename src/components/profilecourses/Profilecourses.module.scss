@@ -1,0 +1,78 @@
+.Profilecourses {
+
+    &__background {
+        background: #ffffff;
+        width: 1389px;
+        height: 560px;
+        margin: 37px 0 0 174px;
+    }
+
+    &__body{
+        display: flex;
+        width: 1389px;
+        height: 237px;
+        transition: all ease 0.7s;
+        flex-wrap: wrap;
+    }
+
+    &__body>div{
+        margin: 0 20px 20px 0;
+    }
+
+    &__title {
+        color: #000;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 52px;
+        font-weight: 500;
+        margin: 22px 0 0 0;
+    }
+
+    &__div_search {
+        margin: 37px 0 0 194px;
+    }
+}
+
+@media (width: 768px) {
+    .Profilecourses {
+
+        &__background {
+            background: #ffffff;
+            width: 900px;
+            height:777px;
+            margin: 37px 0 0 50px;
+        }
+
+        &__body{
+            display: flex;
+            width: 700px;
+            height: 777px;
+            transition: all ease 0.7s;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media (width: 480px) {
+    .Profilecourses {
+
+        &__background {
+            background: #ffffff;
+            width: 900px;
+            height:777px;
+            margin: 37px 0 0 10px;
+        }
+
+        &__body{
+            display: flex;
+            width: 700px;
+            height: 777px;
+            transition: all ease 0.7s;
+            flex-wrap: wrap;
+        }
+
+        &__div_search {
+            margin: 37px 0 0 20px;
+        }
+    }
+}

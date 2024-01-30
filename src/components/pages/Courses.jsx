@@ -1,3 +1,4 @@
+import Catalogcourses from "../catalogcourses/Catalogcourses";
 import Footer from "../footer/Footer";
 import Header from "../header/Header";
 
@@ -6,7 +7,7 @@ const Courses = () => {
         <>
             <div className="container">
                 <Header />
-                Курсы и сурсы
+                <Catalogcourses />
             </div>
             <Footer />
         </>

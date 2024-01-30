@@ -1,0 +1,42 @@
+.FeedbackBtn{
+
+    &__feedback_btn{
+        border-radius: 10px;
+        background: #3E50CB;
+        border: 2px solid #3E50CB;
+        padding: 16px 265px;
+        color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 22px 0 0 0;
+        transition: .3s ease-in-out;
+        cursor: pointer;
+    }
+
+    &__feedback_btn:hover{
+        color: #3E50CB;
+        background: #FFF;
+        transition: .3s ease-in-out;
+        font-weight: 4  00;
+    }
+}
+
+@media (width: 768px) {
+    .Helpform {
+    
+        &__feedback_form {
+            margin: 0 0 186px 10px;
+        }
+    }
+}
+
+@media (width: 480px) {
+    .FeedbackBtn{
+
+        &__feedback_btn{
+            padding: 16px 115px;
+        }
+    }
+}

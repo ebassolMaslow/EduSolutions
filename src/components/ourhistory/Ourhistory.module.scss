@@ -9,7 +9,7 @@
         font-family: Montserrat;
         font-size: 48px;
         font-weight: 700;
-        margin: 0 0 77px 0;
+        margin: 0 0 18px 0;
     }
 
     &__body {
@@ -25,5 +25,41 @@
         line-height: 30px;
         width: 610px;
         margin: 0 77px 0 16px;
+    }
+}
+
+@media (width: 768px) {
+    .Ourhistory {
+
+        &__title {
+            margin: 0 0 50px 0;
+            font-size: 42px;
+        }
+
+        &__container {
+            margin: 0 0 77px 50px;
+        }
+        
+        &__img {
+            display: none;
+        }
+    }
+}
+
+@media (width: 480px) {
+    .Ourhistory {
+
+        &__title {
+            margin: 0 0 50px 0;
+            font-size: 42px;
+        }
+
+        &__container {
+            margin: 0 0 77px 50px;
+        }
+        
+        &__img {
+            display: none;
+        }
     }
 }

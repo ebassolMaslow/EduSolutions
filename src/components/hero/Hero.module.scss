@@ -29,3 +29,49 @@
         margin: 71px 0 119px 138px;
     }
 }
+
+@media (width: 768px) {
+    .hero {
+        &__title {
+            font-size: 38px;
+            width: 600px;
+            margin: 38px 0 0 50px;
+        }
+
+        &__subtitle {
+            font-size: 18px;
+            width: 365px;
+            margin: 17px 0 32px 50px;
+        }
+
+        &__div_cards{
+            display: block;
+            width: 600px;
+            justify-content: space-between;
+            margin: 71px 0 119px 138px;
+        }
+    }
+}
+
+@media (width: 480px) {
+    .hero {
+        &__title {
+            font-size: 38px;
+            width: 400px;
+            margin: 38px 0 0 50px;
+        }
+
+        &__subtitle {
+            font-size: 18px;
+            width: 365px;
+            margin: 17px 0 32px 50px;
+        }
+
+        &__div_cards{
+            display: block;
+            width: 450px;
+            justify-content: space-between;
+            margin: 40px 0 60px 20px;
+        }
+    }
+}

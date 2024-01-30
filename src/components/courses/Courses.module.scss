@@ -41,3 +41,41 @@
         transition: all ease 0.7s;
     }
 }
+
+@media (width: 768px) {
+    .courses {
+
+        &__title {
+            font-size: 28px;
+            font-weight: 500;
+            width: 690px;
+            padding: 51px 0 33px 0;
+        }
+
+        &__slider{
+            width: 428px;
+            height: 237px;
+            overflow: hidden;
+            margin: 0 0 33px 0;
+        }
+    }
+}
+
+@media (width: 480px) {
+    .courses {
+
+        &__title {
+            font-size: 18px;
+            font-weight: 500;
+            width: 690px;
+            padding: 51px 0 33px 0;
+        }
+
+        &__slider{
+            width: 340px;
+            height: 237px;
+            overflow: hidden;
+            margin: 0 0 33px 0;
+        }
+    }
+}

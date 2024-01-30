@@ -37,6 +37,32 @@
     &__statistic_textwo {
         margin-bottom: 65px;
     }
+}
 
+@media (width: 768px) {
+    .Peopleschoice {
 
+        &__container {
+            display: block;
+            margin: 136px 0 99px 205px;
+        }
+
+        &__statistic {
+            margin: 50px 154px 0 0;
+        }
+    }
+}
+
+@media (width: 480px) {
+    .Peopleschoice {
+
+        &__container {
+            display: block;
+            margin: 136px 0 99px 55px;
+        }
+
+        &__statistic {
+            margin: 50px 154px 0 0;
+        }
+    }
 }

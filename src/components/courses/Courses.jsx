@@ -12,20 +12,18 @@ import wd from '../../assets/images/web_developer-icon.svg'
 import CourseButton from "../ui/buttons/CourseButton";
 
 const Courses = () => {
-
     const [offset, setOffset] = useState(0);
 
     const goPrev = () => {
-        let newOffset = offset - 660;
-        if (newOffset < 0) newOffset = 2644;
+        let newOffset = offset - 658;
+        if (newOffset < 0) newOffset = 0;
         setOffset(newOffset);
     }
 
     const goNext = () => {
-        let newOffset = offset + 660;
+        let newOffset = offset + 658;
         if (newOffset > 3000) newOffset = 0;
         setOffset(newOffset);
-
     }
 
     return (
@@ -79,7 +77,6 @@ const Courses = () => {
                 title: 'Пройти курс'
             }} />
         </div>
-
     );
 }
 

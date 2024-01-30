@@ -19,3 +19,29 @@
         margin: 0 0 60px 253px;
     }
 }
+
+@media (width: 768px) {
+    .Feedback {
+
+        &__container{
+            display: block;
+            width: auto;
+            margin: 0 0 0 200px;
+        }
+    }
+}
+
+@media (width: 480px) {
+    .Feedback {
+
+        &__title {
+            margin: 0 0 60px 103px;
+        }
+
+        &__container{
+            display: block;
+            width: auto;
+            margin: 0 0 0 100px;
+        }
+    }
+}

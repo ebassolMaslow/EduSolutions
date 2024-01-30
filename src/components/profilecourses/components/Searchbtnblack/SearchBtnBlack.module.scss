@@ -1,0 +1,38 @@
+.SearchBtnBlack{
+
+    &__search_input {
+        width: 360px;
+        padding: 14.3px 0;
+        background: #ffffff;
+        border: 2px solid black;
+        border-radius: 0 20px 20px 0;
+        color: #000000;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    &__body_search_courses {
+        display: flex;
+        align-items: center;
+    }
+
+    &__body_search_courses>button {
+        border: 2px solid black;
+        background: #ffffff;
+        border-radius: 20px 0 0 20px;
+        padding: 12.1px 14px 12.5px 23px;
+    }
+
+    &__body_search_courses>button>img {
+        width: 25px;
+        height: 25px;
+    }
+
+    &__search_input::placeholder {
+        color: #000000;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,108 @@
+.CardProfile {
+
+    &__background {
+        width: 627px;
+        height: auto;
+        border-radius: 40px;
+        margin: 0 17px;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left {
+        padding: 28px 0 0 37px;
+    }
+
+    &__profession_text {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0 0 18px 0;
+    }
+
+    &__profession_title {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 28px;
+        font-weight: 600;
+        margin: 0 0 91px 0;
+    }
+
+    &__profession_months {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0 0 26px 0;
+    }
+
+    &__course_photo {
+        width: 110px;
+        height: 110px;
+        padding: 48px 48px 0 0;
+    }
+
+    &__progress_bar {
+        width: 542px;
+        height: 20px;
+        background-color: #f2f2f2;
+        border-radius: 40px;
+        margin: 0 0 25px 50px;
+        position: relative;
+    }
+
+    &__progress_text {
+        position: absolute;
+        top: 0;
+        left: 220px;
+        line-height: 20px;
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    &__progress {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 20%;
+        background-color: #3E50CB;
+        border-radius: 40px;
+    }
+}
+
+@media (width: 480px) {
+    .CardProfile {
+
+        &__background {
+            width: 430px;
+        }
+
+        &__progress_bar {
+            width: 342px;
+        }
+    
+        &__progress_text {
+            display: none;
+        }
+    
+        &__progress {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 20%;
+            background-color: #3E50CB;
+            border-radius: 40px;
+        }
+    }
+}

@@ -21,3 +21,13 @@
         transition: .3s ease;
     }
 }
+
+@media (width: 480px) {
+    .CourseButton {
+
+        &__button {
+            font-size: 18px;
+            padding: 23.5px 101px;
+        }
+    }
+}

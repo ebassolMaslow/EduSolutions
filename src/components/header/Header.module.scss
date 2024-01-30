@@ -29,3 +29,43 @@
         height: 33.76px;
     }
 }
+
+
+
+@media (width: 768px) {
+    .header {
+
+        &__logo_text {
+            margin: 0 0 0 0;
+            display: flex;
+        }
+
+        &__wrapper {
+            // background-color: bisque;
+            padding: 13px 40px;
+        }
+    
+        &__logo {
+            display: block;
+        }
+    }
+}
+
+@media (width: 480px) {
+    .header {
+
+        &__logo_text {
+            margin: 0 0 0 0;
+            display: flex;
+        }
+
+        &__wrapper {
+            // background-color: bisque;
+            padding: 13px 40px;
+        }
+    
+        &__logo {
+            display: block;
+        }
+    }
+}

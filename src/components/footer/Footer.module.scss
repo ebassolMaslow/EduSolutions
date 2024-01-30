@@ -21,3 +21,25 @@
         margin: 0 26px 0 0;
     }
 }
+
+@media (width: 768px) {
+    .Footer {
+
+        &__wrapper {
+            display: block;
+            background: #000;
+            padding: 48px 0 71px 50px; 
+        }
+    }
+}
+
+@media (width: 480px) {
+    .Footer {
+
+        &__wrapper {
+            display: block;
+            background: #000;
+            padding: 48px 0 71px 50px; 
+        }
+    }
+}

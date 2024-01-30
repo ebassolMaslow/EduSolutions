@@ -26,3 +26,37 @@
         font-weight: 400;
     }
 }
+
+@media (width: 768px) {
+    .header {
+
+        &__nav{
+            margin: 0 0 0 0;
+            // line-height: 1.7;
+            display: flex;
+            align-items: center;
+        }
+
+        &__menu {
+            display: block;
+            justify-content: space-between;
+            width: auto;
+        }
+    }
+}
+
+@media (width: 480px) {
+    .header {
+        &__nav{
+            margin: 0 0 0 0;
+            // line-height: 1.7;
+            display: flex;
+            align-items: center;
+        }
+        &__menu {
+            display: block;
+            justify-content: space-between;
+            width: auto;
+        }
+    }
+}

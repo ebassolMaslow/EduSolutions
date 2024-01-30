@@ -32,3 +32,18 @@
         margin: 0 0 11px 0;
     }
 }
+
+@media (width: 480px) {
+    .FooterNav {
+
+        &__nav{
+            display: block;
+            width: auto;
+            margin: 40px 0 0 106px;
+        }
+
+        &__nav>ul{
+            margin: 40px 0 0 0;
+        }
+    }
+}

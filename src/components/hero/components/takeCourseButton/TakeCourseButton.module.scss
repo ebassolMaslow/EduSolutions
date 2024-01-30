@@ -19,3 +19,15 @@
     border: 2px solid #66CC66;
     transition: .3s ease;
 }
+
+@media (width: 768px) {
+    .TakeCourseButton {
+        margin: 0 0 0 50px;
+    }
+}
+
+@media (width: 480px) {
+    .TakeCourseButton {
+        margin: 0 0 0 50px;
+    }
+}

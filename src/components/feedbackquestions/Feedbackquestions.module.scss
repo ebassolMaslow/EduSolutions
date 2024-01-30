@@ -22,3 +22,44 @@
         margin: 0 218px 0 0;
     }
 }
+
+@media (width: 768px) {
+    .Feedbackquestions {
+
+        &__container {
+            display: block;
+            width: 602px;
+            padding: 79px 0 79px 91px;
+            margin: 0 0 75px 15px;
+        }
+
+        &__img{
+            display: none;
+        }
+    }
+}
+
+@media (width: 480px) {
+    .Feedbackquestions {
+
+        &__container {
+            display: block;
+            width: 355px;
+            padding: 79px 0 79px 91px;
+            margin: 0 0 75px 15px;
+        }
+
+        &__img{
+            display: none;
+        }
+
+        &__text {
+            color: #FFF;
+            font-family: Montserrat;
+            font-size: 40px;
+            font-weight: 600;
+            width: auto;
+            margin: 0 0 57px 0;
+        }
+    }
+}
